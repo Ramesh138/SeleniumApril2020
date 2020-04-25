@@ -2,7 +2,7 @@ package com.javaprograms.constructors;
 
 public class ConstructorsExample {
 	
- ConstructorsExample() {
+ public ConstructorsExample() {
 	System.out.println(" I am Default Constructor");
 }
  
@@ -19,11 +19,11 @@ public class ConstructorsExample {
 	 System.out.println(" my Name and Age is "+ name+ " :"+age);
  }
  
- void method1(int age,String name) {
+ public void method1(int age,String name) {
 	 System.out.println(" this room  is allocated to MR. SAM"+ name+ " :"+age);
  }
  
- void method1(String name,int age) {
+ public void method1(String name,int age) {
 	 System.out.println(" this room  is allocated to MR. SAM"+ name+ " :"+age);
  }
  public static void main(String[] args) {
